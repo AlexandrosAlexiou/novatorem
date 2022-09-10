@@ -8,10 +8,10 @@
         "SPOTIFY_CLIENT_ID": {
             "required": true
         },
-        "SPOTIFY_REFRESH_TOKEN": {
+        "SPOTIFY_SECRET_ID": {
             "required": true
         },
-        "SPOTIFY_SECRET_ID": {
+        "REDIRECT_URI": {
             "required": true
         }
     },

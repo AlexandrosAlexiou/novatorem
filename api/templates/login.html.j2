@@ -1,0 +1,62 @@
+<svg width="480" height="133" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <foreignObject width="480" height="133">
+        <div xmlns="http://www.w3.org/1999/xhtml" class="container">
+            <style>
+                .container {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border-radius: 5px;
+                    padding: 10px 10px 10px 0px;
+                    background-color: #0d1117;
+                    border: 1px solid #ffffff;
+                    height: 100px
+                }
+
+                .content {
+                    width: 100%;
+                }
+
+                .message {
+                    width: 330px;
+                    color: #f7f7f7;
+                    overflow: hidden;
+                    margin-top: 3px;
+                    font-size: 24px;
+                    text-align: center;
+                    white-space: nowrap;
+                    text-overflow: ellipsis;
+                }
+                /* unvisited link */
+                a:link {
+                color: red;
+                }
+
+                /* visited link */
+                a:visited {
+                color: green;
+                }
+
+                /* mouse over link */
+                a:hover {
+                color: hotpink;
+                }
+
+                /* selected link */
+                a:active {
+                color: blue;
+                }
+
+                span {
+                    font-family: 'proxima-nova', sans-serif;
+                    font-size: 10px;
+                    font-size: 1.2rem;
+                    font-weight: 300;
+                    line-height: 1.875;
+                    margin: 0;
+                }
+            </style>                        
+            <a href="{{login_url.replace("&", "&amp;")}}"><span>Login with Spotify to start the service</span></a>
+        </div>
+    </foreignObject>
+</svg>

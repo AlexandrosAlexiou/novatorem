@@ -3,7 +3,7 @@ services:
     spotify-readme:
         build: .
         ports:
-            - "5000:5000"
+            - "80:80"
         volumes:
             - ./api:/api
 volumes:

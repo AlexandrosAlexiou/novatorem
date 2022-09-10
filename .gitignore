@@ -6,3 +6,16 @@
 
 # Pycache
 __pycache__
+
+# VS Code
+.vscode
+
+# Markdown
+*.md
+
+# License
+LICENSE
+
+# Docker
+docker-compose.yml
+Dockerfile
