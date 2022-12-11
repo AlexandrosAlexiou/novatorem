@@ -43,13 +43,9 @@ curl -X POST -H "Content-Type: application/x-www-form-urlencoded" -H "Authorizat
 
 * Deploy!
 
-## Deploy to Heroku  
+## Deploy to Google Cloud
+[![Run on Google Cloud](https://storage.googleapis.com/cloudrun/button.svg)](https://console.cloud.google.com/cloudshell/editor?shellonly=true&cloudshell_image=gcr.io/cloudrun/button&cloudshell_git_repo=https://github.com/AlexandrosAlexiou/novatorem.git)
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https%3A%2F%2Fgithub.com%2Fnovatorem%2Fnovatorem)
-- Create a Heroku application via the Heroku CLI or via the Heroku Dashboard. Connect the app with your GitHub repository and enable automatic builds <br>
-    `PS. automatic build means that everytime you push changes to remote, heroku will rebuild and redeploy the app.`
-    - To start the Flask server execute `heroku ps:scale web=1` once the build is completed.
-- Or click the `Deploy to Heroku` button above to automatically start the deployment process.
 
 ## Run locally with Docker
 
@@ -59,14 +55,14 @@ curl -X POST -H "Content-Type: application/x-www-form-urlencoded" -H "Authorizat
     * `SPOTIFY_REFRESH_TOKEN`
     * `SPOTIFY_CLIENT_ID`
     * `SPOTIFY_SECRET_ID`
-  
+
 * To run the service, open a terminal in the root folder of the repo: <br>
     Execute:
     ```
     docker compose up
     ```
 * When finished, navigate to [http://localhost:5000/](http://localhost:5000/)
-    
+
 * To stop the service, open a terminal in the root folder of the repo: <br>
     Execute:
     ```
@@ -112,7 +108,7 @@ You can customize the appearance of your `Card` however you wish with URL params
 - `background_color` - Card's background color _(hex color)_ without `#`
 - `border_color` - Card border color _(hex color)_ without `#`
 
-Use `/?background_color=8b0000&border_color=ffffff` parameter like so:  
+Use `/?background_color=8b0000&border_color=ffffff` parameter like so:
 &nbsp; <br> [![Spotify](https://novatorem.vercel.app/api/spotify?background_color=0d1117&border_color=ffffff)]()
 
 ## Spotify Logo
@@ -135,7 +131,7 @@ If you have issues setting up, try following this [guide](https://youtu.be/n6d4K
 
 Followed the guide and still having problems?
 Try checking out the functions tab in vercel, linked as:
-```https://vercel.com/{name}/spotify/{build}/functions``` 
+```https://vercel.com/{name}/spotify/{build}/functions```
 
 <details><summary>Which looks like-</summary>
 
